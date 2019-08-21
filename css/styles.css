@@ -1,0 +1,46 @@
+.col {
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.elements {
+    border: 3px solid blue;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid green;
+}
+
+.box h2 {
+    border: 1px solid red;
+    display: inline;
+}
+
+.box1 h2 {
+    position: static;
+}
+
+.box2 h2 { 
+    position: relative;
+    left: 10px;
+}
+
+.box3 h2 {
+    position: fixed;
+    left: 500px;
+    top: 150px;
+}
+
+.box4 h2 {
+    position: absolute;
+    left: 700px;
+    top: 350px;
+}
+
+.box5 h2 {
+    position: sticky;
+    top: 350px;
+}
